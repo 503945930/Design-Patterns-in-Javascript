@@ -35,10 +35,7 @@
 * 模板方法模式(Template)
 * Try-Finally模式(Try-Finally)
 
-每种设计模式放在对应文件夹
-
-Inside these folders you can found, in some of them, other folders with numbers . This folders are the different steps to follow to arrive to the final resolution of the problem.
-You will understand it better if you have one copy of the book I recomend you before.
+每种设计模式都放在对应文件夹
 
 ## 编译为ES5
 
@@ -51,4 +48,4 @@ gulp
 欢迎大家提问，多尽可能回答大家。
 
 
-__
+
