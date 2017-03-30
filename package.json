@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tcorral/Design-Patterns-in-Javascript.git"
+    "url": "git+https://github.com/503945930/Design-Patterns-in-Javascript"
   },
   "keywords": [
     "design",
@@ -17,12 +17,12 @@
     "es2015",
     "es6"
   ],
-  "author": "Tomas Corral <amischol@gmail.com>",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tcorral/Design-Patterns-in-Javascript/issues"
+    "url": "https://github.com/503945930/Design-Patterns-in-Javascript/issues"
   },
-  "homepage": "https://github.com/tcorral/Design-Patterns-in-Javascript#readme",
+  "homepage": "https://github.com/503945930/Design-Patterns-in-Javascript",
   "devDependencies": {
     "babel-core": "^6.7.7",
     "babel-plugin-transform-es2015-modules-amd": "^6.6.5",
