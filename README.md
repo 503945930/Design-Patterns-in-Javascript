@@ -1,54 +1,51 @@
-# Design Patterns in Javascript ES6
-This will be a repository of how to use the Design Patterns from *Gang of Four* in your applications with Javascript.
+# Javascript设计模式 - ES2015
+如何在项目使用Javascript设计模式
 
-## Update:
-- All the Design Patterns have been refactored to ES6.
-- Added the Multi-Inheritance Design Patterns exclusive for ES6.
-- Added new Design Patterns exclusive from Javascript.
-- Added changes to index.html. Now you can check the code to be executed and the execution without open the console. Thanks -adamnbowen-
+## 更新:
+- 所有的设计模式使用最新的`ES2015`
+- 添加多继承
+- 添加新的设计模式
+- 修改`index.html`
 
 
 ## Design Patterns that you can find in this repository:
 
-* Adapter
-* Chaining
-* Command
-* Composite
-* Composite Iterator
-* Compound (Use some design patterns together to solve a problem)
-* Decorator
-* Facade
-* Factory
-* Iterator
-* Lazy
-* Module
-* Module Revealed
-* Multi-Inheritance ES6
-* MVC
-* Namespace
-* Nullify
-* Observer
-* Proxy
-* Singleton
-* State
-* Strategy
-* Template
-* Try-Finally
+* 适配器模式(Adapter)
+* 职责链模式(Chaining)
+* 命令模式(Command)
+* 组合模式(Composite)
+* 组合迭代模式(Composite Iterator)
+* 复合模式(Compound)
+* 装饰器模式(Decorator)
+* 外观模式(Facade)
+* 工厂模式(Factory)
+* 迭代器模式(Iterator)
+* 懒加载模式(Lazy)
+* 模块模式(Module)
+* 模块控制模式(Module Revealed)
+* 多继承模式 ES6(Multi-Inheritance ES6)
+* MVC模式(MVC)
+* 命名空间模式(Namespace)
+* 空对象模式(Nullify)
+* 观察者模式(Observer)
+* 代理模式(Proxy)
+* 单例模式(Singleton)
+* 状态模式(State)
+* 策略模式(Strategy)
+* 模板方法模式(Template)
+* Try-Finally模式(Try-Finally)
 
-This repository contains a folder by each design pattern.
+每种设计模式都放在对应文件夹
 
-Inside these folders you can found, in some of them, other folders with numbers . This folders are the different steps to follow to arrive to the final resolution of the problem.
-You will understand it better if you have one copy of the book I recomend you before.
+## 编译为ES5
 
-## To transpile the code to ES5 you should execute ```gulp```
- 
-## Do you want to collaborate?
+```javascript
+gulp
+```
 
-All constructive comments are welcome. I promise I will answer everyone.
+## 问题?
 
-## Agreements
+欢迎大家提问，多尽可能回答大家。
 
-[Head First Design Patterns](http://www.amazon.com/First-Design-Patterns-Elisabeth-Freeman/dp/0596007124/ref=sr_1_1?ie=UTF8&qid=1316512770&sr=8-1)
 
-[Pro Javascript Design Patterns](http://www.amazon.com/Pro-JavaScript-Design-Patterns-Object-Oriented/dp/159059908X)
-__
+
