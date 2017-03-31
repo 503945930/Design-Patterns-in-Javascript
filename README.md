@@ -11,7 +11,7 @@
 ## Design Patterns that you can find in this repository:
 
 * 适配器模式(Adapter)
-* 职责链模式(Chaining)
+* 链式模式(Chaining)
 * 命令模式(Command)
 * 组合模式(Composite)
 * 组合迭代模式(Composite Iterator)
