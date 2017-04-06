@@ -1,11 +1,11 @@
 class GooseAdapter {
-  constructor(oGoose) {
-    this.oGoose = oGoose;
+  constructor (oGoose) {
+    this.oGoose = oGoose
   }
 
-  quack() {
-    this.oGoose.honk();
+  quack () {
+    this.oGoose.honk()
   }
 }
 
-export default GooseAdapter;
+export default GooseAdapter

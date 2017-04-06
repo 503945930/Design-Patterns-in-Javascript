@@ -1,9 +1,9 @@
-import Quackable from './Quackable';
+import Quackable from './Quackable'
 
 class DuckCall extends Quackable {
-  quack() {
-    console.log('Kwak!');
+  quack () {
+    console.log('Kwak!')
   }
 }
 
-export default DuckCall;
+export default DuckCall

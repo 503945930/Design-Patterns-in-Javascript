@@ -1,9 +1,9 @@
-import Quackable from './Quackable';
+import Quackable from './Quackable'
 
 class RubberDuck extends Quackable {
-  quack() {
-    console.log('Squeak!');
+  quack () {
+    console.log('Squeak!')
   }
 }
 
-export default RubberDuck;
+export default RubberDuck

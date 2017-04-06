@@ -1,7 +1,7 @@
 class Goose {
-  honk() {
-    console.log("Honk!");
+  honk () {
+    console.log('Honk!')
   }
 }
 
-export default Goose;
+export default Goose

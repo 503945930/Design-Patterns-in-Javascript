@@ -1,17 +1,35 @@
+
+/**
+ *  灯
+ *
+ * @class Light
+ */
 class Light {
-  constructor() {
-    this._on = false;
+  constructor () {
+    this._on = false
   }
 
-  on() {
-    this._on = true;
-    console.log('Light is on');
+  /**
+   * 开
+   *
+   *
+   * @memberOf Light
+   */
+  on () {
+    this._on = true
+    console.log('Light is on')
   }
 
-  off() {
-    this._on = false;
-    console.log('Light is off');
+  /**
+   * 关
+   *
+   *
+   * @memberOf Light
+   */
+  off () {
+    this._on = false
+    console.log('Light is off')
   }
 }
 
-export default Light;
+export default Light
