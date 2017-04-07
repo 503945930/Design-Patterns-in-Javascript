@@ -11,16 +11,38 @@ class Menu extends MenuComponent {
     }
   }
 
+  /**
+   * 添加
+   *
+   * @param {any} menuComponent
+   *
+   * @memberOf Menu
+   */
   add (menuComponent) {
     this.menuComponents.push(menuComponent)
   }
 
+  /**
+   * 移除
+   *
+   * @param {any} menuComponent
+   *
+   * @memberOf Menu
+   */
   remove (menuComponent) {
     this.menuComponents = this.menuComponents.filter(component => {
       return component !== menuComponent
     })
   }
 
+  /**
+   * 子菜单
+   *
+   * @param {any} index
+   * @returns
+   *
+   * @memberOf Menu
+   */
   getChild (index) {
     return this.menuComponents[index]
   }

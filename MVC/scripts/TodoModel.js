@@ -1,52 +1,51 @@
-import $ from './FakeAjaxCall';
+import $ from './FakeAjaxCall'
 
 class TodoModel {
-  constructor() {
-    this.items = [];
+  constructor () {
+    this.items = []
   }
 
-  add(item) {
+  add (item) {
     return new Promise((resolve, reject) => {
       this.items.push({
         text: item,
         done: false,
         id: this.items.length
-      });
+      })
 
       $.ajax({
-          url: '/todo-items/add',
-          type: 'POST'
-        })
+        url: '/todo-items/add',
+        type: 'POST'
+      })
         .then(
           data => {
-            resolve(data);
+            resolve(data)
           },
           xhr => {
-            reject({message: xhr.status + ": " + xhr.responseText});
+            reject({message: xhr.status + ': ' + xhr.responseText})
           }
-        );
-    });
+        )
+    })
   }
 
-  all() {
+  all () {
     return new Promise((resolve, reject) => {
-        $.ajax({
-            url: '/todo-items'
-          })
+      $.ajax({
+        url: '/todo-items'
+      })
           .then(
             data => {
-              resolve(data);
+              resolve(data)
             },
             xhr => {
-              reject({message: xhr.status + ": " + xhr.responseText});
+              reject({message: xhr.status + ': ' + xhr.responseText})
             }
-          );
-      }
+          )
+    }
     )
-      ;
   }
 
-  undoItem(id) {
+  undoItem (id) {
     return new Promise((resolve, reject) => {
       $.ajax({
         url: '/todo-items/undo',
@@ -54,16 +53,16 @@ class TodoModel {
       })
       .then(
         data => {
-          resolve(data);
+          resolve(data)
         },
         xhr => {
-          reject({message: xhr.status + ": " + xhr.responseText});
+          reject({message: xhr.status + ': ' + xhr.responseText})
         }
       )
-    });
+    })
   }
 
-  completeItem(id) {
+  completeItem (id) {
     return new Promise((resolve, reject) => {
       $.ajax({
         url: '/todo-items/complete',
@@ -71,14 +70,14 @@ class TodoModel {
       })
       .then(
         data => {
-          resolve(data);
+          resolve(data)
         },
         xhr => {
-          reject({message: xhr.status + ": " + xhr.responseText});
+          reject({message: xhr.status + ': ' + xhr.responseText})
         }
       )
-    });
+    })
   }
 }
 
-export default TodoModel;
+export default TodoModel

@@ -1,9 +1,9 @@
-import $ from './jquery';
+import $ from './jquery'
 
-$.ajax =  function(config) {
+$.ajax = function (config) {
   return new Promise((resolve, reject) => {
     switch (config.url) {
-      case "/todo-items/add":
+      case '/todo-items/add':
         resolve([
           {
             text: 'Test 1',
@@ -20,9 +20,9 @@ $.ajax =  function(config) {
             done: true,
             id: 3
           }
-        ]);
-        break;
-      case "/todo-items":
+        ])
+        break
+      case '/todo-items':
         resolve([
           {
             text: 'Test 1',
@@ -39,9 +39,9 @@ $.ajax =  function(config) {
             done: true,
             id: 3
           }
-        ]);
-        break;
-      case "/todo-items/undo":
+        ])
+        break
+      case '/todo-items/undo':
         resolve([
           {
             text: 'Test 1',
@@ -58,9 +58,9 @@ $.ajax =  function(config) {
             done: false,
             id: 3
           }
-        ]);
-        break;
-      case "/todo-items/complete":
+        ])
+        break
+      case '/todo-items/complete':
         resolve([
           {
             text: 'Test 1',
@@ -77,10 +77,10 @@ $.ajax =  function(config) {
             done: true,
             id: 3
           }
-        ]);
-        break;
+        ])
+        break
     }
-  });
-};
+  })
+}
 
-export default $;
+export default $

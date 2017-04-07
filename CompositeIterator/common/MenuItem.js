@@ -1,26 +1,26 @@
-import MenuComponent from './MenuComponent';
+import MenuComponent from './MenuComponent'
 
 class MenuItem extends MenuComponent {
-  getName() {
-    return this.name;
+  getName () {
+    return this.name
   }
 
-  getDescription() {
-    return this.description;
+  getDescription () {
+    return this.description
   }
 
-  getPrice() {
-    return this.price;
+  getPrice () {
+    return this.price
   }
 
-  print() {
-    console.log(this.getName() + ": " + this.getDescription() + ", " + this.getPrice() + "euros");
+  print () {
+    console.log(this.getName() + ': ' + this.getDescription() + ', ' + this.getPrice() + 'euros')
   }
 
-  createIterator() {
-    var arr = [];
-    return arr[Symbol.iterator]();
+  createIterator () {
+    var arr = []
+    return arr[Symbol.iterator]()
   }
 }
 
-export default MenuItem;
+export default MenuItem

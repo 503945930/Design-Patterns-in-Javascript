@@ -1,7 +1,7 @@
 class ListView {
-  constructor(element) {
-    return element;
+  constructor (element) {
+    return element
   }
 }
 
-export default ListView;
+export default ListView
