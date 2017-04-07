@@ -1,22 +1,22 @@
-import Duck from './Duck';
+import Duck from './Duck'
 
-const MAX_FLIES = 5;
+const MAX_FLIES = 5
 
 class TurkeyAdapter extends Duck {
-  constructor(oTurkey) {
-    super(oTurkey);
-    this.oTurkey = oTurkey;
+  constructor (oTurkey) {
+    super(oTurkey)
+    this.oTurkey = oTurkey
   }
 
-  fly() {
+  fly () {
     for (let index = 0; index < MAX_FLIES; index++) {
-      this.oTurkey.fly();
+      this.oTurkey.fly()
     }
   }
 
-  quack() {
-    this.oTurkey.gobble();
+  quack () {
+    this.oTurkey.gobble()
   }
 }
 
-export default TurkeyAdapter;
+export default TurkeyAdapter

@@ -1,13 +1,13 @@
-import Duck from './Duck';
+import Duck from './Duck'
 
 class MallardDuck extends Duck {
-  fly() {
-    console.log('Can fly long distances!');
+  fly () {
+    console.log('Can fly long distances!')
   }
 
-  quack() {
-    console.log('Quack! Quack!');
+  quack () {
+    console.log('Quack! Quack!')
   }
 }
 
-export default MallardDuck;
+export default MallardDuck

@@ -1,13 +1,13 @@
 class Duck {
-  constructor() {}
+  constructor () {}
 
-  fly() {
-    throw new Error('This method must be overwritten!');
+  fly () {
+    throw new Error('This method must be overwritten!')
   }
 
-  quack() {
-    throw new Error('This method must be overwritten!');
+  quack () {
+    throw new Error('This method must be overwritten!')
   }
 }
 
-export default Duck;
+export default Duck

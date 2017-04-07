@@ -1,10 +1,9 @@
-import LightOnCommand from '../../common/LightOnCommand';
-;
+import LightOnCommand from '../../common/LightOnCommand'
 
 class LightOnCommand2 extends LightOnCommand {
-  undo() {
-    this.light.off();
+  undo () {
+    this.light.off()
   }
 }
 
-export default LightOnCommand2;
+export default LightOnCommand2

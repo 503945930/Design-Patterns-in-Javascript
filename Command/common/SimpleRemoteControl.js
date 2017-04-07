@@ -1,15 +1,15 @@
 class SimpleRemoteControl {
-  constructor() {
-    this.command = null;
+  constructor () {
+    this.command = null
   }
 
-  setCommand(command) {
-    this.command = command;
+  setCommand (command) {
+    this.command = command
   }
 
-  buttonWasPressed() {
-    this.command.execute();
+  buttonWasPressed () {
+    this.command.execute()
   }
 }
 
-export default SimpleRemoteControl;
+export default SimpleRemoteControl

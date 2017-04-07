@@ -1,14 +1,14 @@
-import Command from './Command';
+import Command from './Command'
 
 class LightOnCommand extends Command {
-  constructor(light) {
-    super();
-    this.light = light;
+  constructor (light) {
+    super()
+    this.light = light
   }
 
-  execute() {
-    this.light.on();
+  execute () {
+    this.light.on()
   }
 }
 
-export default LightOnCommand;
+export default LightOnCommand
