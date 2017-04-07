@@ -1,5 +1,5 @@
-import Beverage from './Beverage';
+import Beverage from './Beverage'
 
 class CondimentDecorator extends Beverage {}
 
-export default CondimentDecorator;
+export default CondimentDecorator

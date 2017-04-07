@@ -2,6 +2,12 @@ import Duck from './Duck'
 
 const MAX_FLIES = 5
 
+/**
+ * 火鸡适配器
+ *
+ * @class TurkeyAdapter
+ * @extends {Duck}
+ */
 class TurkeyAdapter extends Duck {
   constructor (oTurkey) {
     super(oTurkey)
