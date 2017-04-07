@@ -1,5 +1,5 @@
-import Menu from './Menu';
+import Menu from './Menu'
 
 class CafeMenu extends Menu {}
 
-export default CafeMenu;
+export default CafeMenu
